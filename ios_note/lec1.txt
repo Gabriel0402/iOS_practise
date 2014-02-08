@@ -1,0 +1,42 @@
+class: description/template for an object
+instance manifestation of a class
+message: sent to object to make it act
+method code invoked by a message
+instance variable: object specific storage
+superclass/subclass: inheritance
+
+what's in ios
+core os , unix kernel. BFD based mock. sockets, file system, permission, power management
+API is in C
+
+core services
+object oriented ways to find file or GPS things. 
+
+media layer: video ediction, do 3d audio. 
+
+cocoa touch: build buttons and slides, animation happenging .fading out, fading in. 
+localization. map kit 3 d maps.
+web browser, high level object
+cocoa touch 
+
+mvc
+all classes into three camps
+model:
+controller:
+view: build generic UI
+controller can always talk to the model
+controller can always talk to the view, call it an outlet.  
+
+communication among mvcs. 
+
+object c 
+strict superset of C. Adds syntax for classes, methods, etc .
+properties
+don't accsess instance vairables directly in oc. use properties.
+property is a combination of getter method and setter method in class.
+getter has the name of property. 
+myValue
+setMyValue
+call the setter to store the value we want and the getter to get it. 
+
+
