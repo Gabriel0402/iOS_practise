@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6EBC75EF-BAC2-4B76-AC95-3E9A7B8DA309</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StackMobStarterProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA8690EC-7B7D-48C4-A20A-1CC22C9CC82F</key>
+		<string>ssh://github.com/stackmob/stackmob-ios-starter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StackMobStarterProject-DS/StackMobStarterProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA8690EC-7B7D-48C4-A20A-1CC22C9CC82F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/stackmob/stackmob-ios-starter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA8690EC-7B7D-48C4-A20A-1CC22C9CC82F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA8690EC-7B7D-48C4-A20A-1CC22C9CC82F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stackmob-ios-starter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864C892518B071280031DE10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C892418B071280031DE10 /* Foundation.framework */; };
+		864C892718B071280031DE10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C892618B071280031DE10 /* CoreGraphics.framework */; };
+		864C892918B071280031DE10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C892818B071280031DE10 /* UIKit.framework */; };
+		864C892F18B071280031DE10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864C892D18B071280031DE10 /* InfoPlist.strings */; };
+		864C893118B071280031DE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C893018B071280031DE10 /* main.m */; };
+		864C893518B071280031DE10 /* clickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C893418B071280031DE10 /* clickerAppDelegate.m */; };
+		864C893818B071280031DE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864C893618B071280031DE10 /* Main.storyboard */; };
+		864C893B18B071280031DE10 /* clickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C893A18B071280031DE10 /* clickerViewController.m */; };
+		864C893D18B071280031DE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864C893C18B071280031DE10 /* Images.xcassets */; };
+		864C894418B071280031DE10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C894318B071280031DE10 /* XCTest.framework */; };
+		864C894518B071280031DE10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C892418B071280031DE10 /* Foundation.framework */; };
+		864C894618B071280031DE10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864C892818B071280031DE10 /* UIKit.framework */; };
+		864C894E18B071280031DE10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 864C894C18B071280031DE10 /* InfoPlist.strings */; };
+		864C895018B071280031DE10 /* Penn_ClickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C894F18B071280031DE10 /* Penn_ClickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864C894718B071280031DE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864C891918B071280031DE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864C892018B071280031DE10;
+			remoteInfo = "Penn Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864C892118B071280031DE10 /* Penn Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864C892418B071280031DE10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		864C892618B071280031DE10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		864C892818B071280031DE10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		864C892C18B071280031DE10 /* Penn Clicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Penn Clicker-Info.plist"; sourceTree = "<group>"; };
+		864C892E18B071280031DE10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		864C893018B071280031DE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		864C893218B071280031DE10 /* Penn Clicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Penn Clicker-Prefix.pch"; sourceTree = "<group>"; };
+		864C893318B071280031DE10 /* clickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clickerAppDelegate.h; sourceTree = "<group>"; };
+		864C893418B071280031DE10 /* clickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clickerAppDelegate.m; sourceTree = "<group>"; };
+		864C893718B071280031DE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864C893918B071280031DE10 /* clickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clickerViewController.h; sourceTree = "<group>"; };
+		864C893A18B071280031DE10 /* clickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clickerViewController.m; sourceTree = "<group>"; };
+		864C893C18B071280031DE10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		864C894218B071280031DE10 /* Penn ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864C894318B071280031DE10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		864C894B18B071280031DE10 /* Penn ClickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Penn ClickerTests-Info.plist"; sourceTree = "<group>"; };
+		864C894D18B071280031DE10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		864C894F18B071280031DE10 /* Penn_ClickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penn_ClickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864C891E18B071280031DE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C892718B071280031DE10 /* CoreGraphics.framework in Frameworks */,
+				864C892918B071280031DE10 /* UIKit.framework in Frameworks */,
+				864C892518B071280031DE10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C893F18B071280031DE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C894418B071280031DE10 /* XCTest.framework in Frameworks */,
+				864C894618B071280031DE10 /* UIKit.framework in Frameworks */,
+				864C894518B071280031DE10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864C891818B071280031DE10 = {
+			isa = PBXGroup;
+			children = (
+				864C892A18B071280031DE10 /* Penn Clicker */,
+				864C894918B071280031DE10 /* Penn ClickerTests */,
+				864C892318B071280031DE10 /* Frameworks */,
+				864C892218B071280031DE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864C892218B071280031DE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864C892118B071280031DE10 /* Penn Clicker.app */,
+				864C894218B071280031DE10 /* Penn ClickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864C892318B071280031DE10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864C892418B071280031DE10 /* Foundation.framework */,
+				864C892618B071280031DE10 /* CoreGraphics.framework */,
+				864C892818B071280031DE10 /* UIKit.framework */,
+				864C894318B071280031DE10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		864C892A18B071280031DE10 /* Penn Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				864C893318B071280031DE10 /* clickerAppDelegate.h */,
+				864C893418B071280031DE10 /* clickerAppDelegate.m */,
+				864C893618B071280031DE10 /* Main.storyboard */,
+				864C893918B071280031DE10 /* clickerViewController.h */,
+				864C893A18B071280031DE10 /* clickerViewController.m */,
+				864C893C18B071280031DE10 /* Images.xcassets */,
+				864C892B18B071280031DE10 /* Supporting Files */,
+			);
+			path = "Penn Clicker";
+			sourceTree = "<group>";
+		};
+		864C892B18B071280031DE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				864C892C18B071280031DE10 /* Penn Clicker-Info.plist */,
+				864C892D18B071280031DE10 /* InfoPlist.strings */,
+				864C893018B071280031DE10 /* main.m */,
+				864C893218B071280031DE10 /* Penn Clicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		864C894918B071280031DE10 /* Penn ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				864C894F18B071280031DE10 /* Penn_ClickerTests.m */,
+				864C894A18B071280031DE10 /* Supporting Files */,
+			);
+			path = "Penn ClickerTests";
+			sourceTree = "<group>";
+		};
+		864C894A18B071280031DE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				864C894B18B071280031DE10 /* Penn ClickerTests-Info.plist */,
+				864C894C18B071280031DE10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864C892018B071280031DE10 /* Penn Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864C895318B071280031DE10 /* Build configuration list for PBXNativeTarget "Penn Clicker" */;
+			buildPhases = (
+				864C891D18B071280031DE10 /* Sources */,
+				864C891E18B071280031DE10 /* Frameworks */,
+				864C891F18B071280031DE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penn Clicker";
+			productName = "Penn Clicker";
+			productReference = 864C892118B071280031DE10 /* Penn Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864C894118B071280031DE10 /* Penn ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864C895618B071280031DE10 /* Build configuration list for PBXNativeTarget "Penn ClickerTests" */;
+			buildPhases = (
+				864C893E18B071280031DE10 /* Sources */,
+				864C893F18B071280031DE10 /* Frameworks */,
+				864C894018B071280031DE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864C894818B071280031DE10 /* PBXTargetDependency */,
+			);
+			name = "Penn ClickerTests";
+			productName = "Penn ClickerTests";
+			productReference = 864C894218B071280031DE10 /* Penn ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864C891918B071280031DE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = clicker;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chenyang ";
+				TargetAttributes = {
+					864C894118B071280031DE10 = {
+						TestTargetID = 864C892018B071280031DE10;
+					};
+				};
+			};
+			buildConfigurationList = 864C891C18B071280031DE10 /* Build configuration list for PBXProject "Penn Clicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864C891818B071280031DE10;
+			productRefGroup = 864C892218B071280031DE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864C892018B071280031DE10 /* Penn Clicker */,
+				864C894118B071280031DE10 /* Penn ClickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864C891F18B071280031DE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C893D18B071280031DE10 /* Images.xcassets in Resources */,
+				864C892F18B071280031DE10 /* InfoPlist.strings in Resources */,
+				864C893818B071280031DE10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C894018B071280031DE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C894E18B071280031DE10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864C891D18B071280031DE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C893518B071280031DE10 /* clickerAppDelegate.m in Sources */,
+				864C893118B071280031DE10 /* main.m in Sources */,
+				864C893B18B071280031DE10 /* clickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C893E18B071280031DE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C895018B071280031DE10 /* Penn_ClickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864C894818B071280031DE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864C892018B071280031DE10 /* Penn Clicker */;
+			targetProxy = 864C894718B071280031DE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864C892D18B071280031DE10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864C892E18B071280031DE10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		864C893618B071280031DE10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864C893718B071280031DE10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864C894C18B071280031DE10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864C894D18B071280031DE10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		864C895118B071280031DE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		864C895218B071280031DE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864C895418B071280031DE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Penn Clicker/Penn Clicker-Prefix.pch";
+				INFOPLIST_FILE = "Penn Clicker/Penn Clicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		864C895518B071280031DE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Penn Clicker/Penn Clicker-Prefix.pch";
+				INFOPLIST_FILE = "Penn Clicker/Penn Clicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		864C895718B071280031DE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Penn Clicker.app/Penn Clicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Penn Clicker/Penn Clicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Penn ClickerTests/Penn ClickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		864C895818B071280031DE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Penn Clicker.app/Penn Clicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Penn Clicker/Penn Clicker-Prefix.pch";
+				INFOPLIST_FILE = "Penn ClickerTests/Penn ClickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864C891C18B071280031DE10 /* Build configuration list for PBXProject "Penn Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C895118B071280031DE10 /* Debug */,
+				864C895218B071280031DE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864C895318B071280031DE10 /* Build configuration list for PBXNativeTarget "Penn Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C895418B071280031DE10 /* Debug */,
+				864C895518B071280031DE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864C895618B071280031DE10 /* Build configuration list for PBXNativeTarget "Penn ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C895718B071280031DE10 /* Debug */,
+				864C895818B071280031DE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864C891918B071280031DE10 /* Project object */;
+}

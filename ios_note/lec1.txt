@@ -40,3 +40,9 @@ setMyValue
 call the setter to store the value we want and the getter to get it. 
 
 
+strong/weak: what to do with memory keep.
+strong: reference counting, keep track of the strong pointer. nil is to 0, which didn't point to anything.
+nonautomac it's not thread safe. Can't try two thread at the same time. 
+ 
+
+
