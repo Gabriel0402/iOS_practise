@@ -82,8 +82,23 @@
 						if (nil != output) {
                             
 							NSLog(@"server said: %@", output);
-                           // [self showWebPage];
-							
+                            NSLog(@"the substring:%@",[output substringWithRange:NSMakeRange(0, 5)]);
+                            if([[output substringWithRange:NSMakeRange(0, 4)] isEqualToString:@"High"])
+                            {
+                                NSLog(@"----------THE MESSAGE IS EQUAL---------");
+                                [self showWebPage1];
+                            }
+                            if([[output substringWithRange:NSMakeRange(0, 4)] isEqualToString:@"Hand"])
+                            {
+                                NSLog(@"----------THE MESSAGE IS EQUAL---------");
+                                [self showWebPage2];
+                            }
+                            if([[output substringWithRange:NSMakeRange(0, 6)] isEqualToString:@"iPhone"])
+                            {
+                                NSLog(@"----------THE MESSAGE IS EQUAL---------");
+                                [self showWebPage3];
+                            }
+                            
 						}
 					}
 				}
@@ -118,6 +133,27 @@
     [webView loadRequest:request];
 }
 
+- (void) showWebPage1{
+    [super viewDidLoad];
+    NSLog(@"----------html initialize---------");
+    NSURL *url=[NSURL URLWithString:@"http://www.amazon.com/Zebra-Pink-High-Heel-Chair/dp/B008FOPDQY/ref=sr_1_5?ie=UTF8&qid=1393209871&sr=8-5&keywords=high-hell+shoes"];
+    NSURLRequest *request= [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
+}
+- (void) showWebPage2{
+    [super viewDidLoad];
+    NSLog(@"----------html initialize---------");
+    NSURL *url=[NSURL URLWithString:@"http://www.amazon.com/MG-Collection-Glamour-Padlock-Shoulder/dp/B0069F61NU/ref=sr_1_2?ie=UTF8&qid=1393209013&sr=8-2&keywords=handbag"];
+    NSURLRequest *request= [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
+}
+- (void) showWebPage3{
+    [super viewDidLoad];
+    NSLog(@"----------html initialize---------");
+    NSURL *url=[NSURL URLWithString:@"http://www.amazon.com/Apple-iPhone-16GB-Black-Verizon/dp/B004ZLV5UE/ref=sr_1_1?ie=UTF8&qid=1393209040&sr=8-1&keywords=iphone"];
+    NSURLRequest *request= [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

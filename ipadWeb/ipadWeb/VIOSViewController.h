@@ -20,6 +20,9 @@
 - (void) joinChat;
 - (void) sendMessage;
 - (void) showWebPage;
+- (void) showWebPage1;
+- (void) showWebPage2;
+- (void) showWebPage3;
 
 
 @end
